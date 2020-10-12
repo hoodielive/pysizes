@@ -1,6 +1,5 @@
 from enum import Enum, auto
 
-
 class Weekday(Enum):
     Sunday = auto()
     Monday = auto()
