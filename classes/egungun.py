@@ -6,7 +6,7 @@ class Egungun:
 
 class EgungunPriest(Egungun):
     def __init__(self, purpose):
-        super().__init__(self.name, self.praxis)
+        super().__init__("abifoluwa", "Iwa Rere")
         self.purpose = purpose
 
 egunda = EgungunPriest("Iwa Pele")
