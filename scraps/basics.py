@@ -1,5 +1,6 @@
 # Write a program that allows a user to add/delete items from a
 # todolist. Display user input as list
+# author: yclept insan
 
 def main():
     added = []
