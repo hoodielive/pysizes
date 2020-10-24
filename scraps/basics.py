@@ -20,7 +20,7 @@ def main():
             for item in added:
                 i = added.index(item) + 1
                 print(f"{i}: {item}")
-        elif user_response == '' or user_response != 'delete' or user_response != 'add' or user_response != 'q':
+        elif user_response == "delete" and len(added) == 0:
             print("Please enter a valid input.")
         else:
             print("ERROR: You can not remove from an empty list.\n")
